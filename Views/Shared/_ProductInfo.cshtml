@@ -1,0 +1,26 @@
+﻿@model ProductViewModel
+<div style="margin-bottom: 25px">
+    <h3 class="modal-title">@Model.Name</h3>
+
+    <img src="@Html.Raw(Model.Image)" class="img-fluid" style="width: 100%; max-width: 500px; height: 400px; margin-bottom: 25px" alt="product img">
+
+    <div style="margin-bottom: 20px">
+        <h5>Category:</h5>
+        <p>@Model.CategoryId</p>
+    </div>
+    <div style="margin-bottom: 20px">
+        <h5>Description:</h5>
+        <p>@Model.Description</p>
+    </div>
+
+    <div style="margin-bottom: 20px">
+        <h5>Price:</h5>
+        <p>@Model.Price</p>
+    </div>
+
+    <div style="margin-bottom: 20px">
+        <h5>Link:</h5>
+        <a href="@Model.Url">@Model.Url</a>
+    </div>
+</div>
+       

@@ -1,0 +1,10 @@
+﻿@model ProductViewModel
+@{
+    Layout = "_Layout";
+}
+<form asp-action="DeleteProduct" asp-controller="Product" method="get">
+    <partial name="_ProductInfo" data="@Model" />
+    <h4>Are you sure you want to delete the product?</h4>
+    <input type="text" hidden value="@Model.Id" name="Id" />
+    <button type="submit" class="btn btn-danger">Delete product</button>
+</form>

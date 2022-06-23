@@ -1,0 +1,11 @@
+﻿@model ProductViewModel
+@{
+    Layout = "_Layout";
+}
+
+<partial name="_ProductInfo" data="@Model" />
+
+<a type="reset" class="btn btn-danger" href="javascript:history.go(-1)">Back</a>
+<a class="btn btn-light">
+    Add To Order
+</a>
