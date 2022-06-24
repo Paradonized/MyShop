@@ -1,5 +1,6 @@
 # MyShop
- A simple web shop created with MVC.
+ A simple web shop created with MVC.<br />
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Paradonized/MyShop?style=plastic">
 
 ## Deployment
 In order to make the project run properly, you will need a database (MS SQL Server). Then, you need to edit `UseSqlServer(...)` in Data, MyShopDbContext. There you need to change the name of the server with your server name and the name of the database (optional). Then, you need to migrate the migration to the server. We use code first approach.
