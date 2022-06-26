@@ -1,5 +1,5 @@
 # MyShop
- A simple web shop created with MVC.<br />
+ A simple web shop created with ASP.NET MVC.<br />
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Paradonized/MyShop?style=plastic">
 
 ## Deployment
